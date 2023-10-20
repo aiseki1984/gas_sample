@@ -13,6 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { hello } from './example-module';
+// import { hello } from './example-module';
+import { fetchValues } from './spreadsheet';
 
-console.log(hello());
+// console.log(hello());
+
+fetchValues();
